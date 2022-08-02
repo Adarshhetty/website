@@ -1,4 +1,4 @@
-body {
+* {
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
 }
@@ -203,4 +203,14 @@ h2 {
 .foot {
     margin: 0 10px;
     color: #000;
+}
+
+.doggy:hover {
+    transform: scale(1.1) rotate(5deg);
+
+}
+
+.doggy {
+    transition: ease-in-out;
+    transition-duration: 400ms;
 }
